@@ -27,6 +27,8 @@ void setup() {
 void loop() {
 writeAnimation(animation1, 8, 5, 0);
 writeAnimation(animation1, 8, 5, 1);
+writeAnimation(animation1, 8, 5, 0);
+writeAnimation(animation1, 8, 5, 1);
   for (int i = 0; i < 10; i++){
     writeAnimation(animation2, 2, 5, 0);
     writeAnimation(animation2, 2, 5, 1);
